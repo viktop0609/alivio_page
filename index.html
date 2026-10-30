@@ -48,12 +48,46 @@
         </div>
     </header>
 
+    <div class="mobile-navigation">
+
+        <label for="menu-toggler-id">
+            <svg class="mobile-navigaton__burger" aria-label="burger icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" name="toggler" id="menu-toggler-id" class="mobile-navigation__toggler">
+
+        <nav class="mobile-navigation__menu" aria-label="navigation">
+            <ul class="mobile-navigation__list" aria-label="mobile-navigation list">
+                <li class="mobile-navigation__item">
+                    <a href="#about-id" class="mobile-navigation__link">Why Alivio</a>
+                </li>
+                <li class="mobile-navigation__item">
+                    <a href="#success-id" class="mobile-navigation__link">Solutions</a>
+                </li>
+                <li class="mobile-navigation__item">
+                    <a href="#product-id" class="mobile-navigation__link">Community</a>
+                </li>
+                <li class="mobile-navigation__item">
+                    <a href="#pricing-id" class="mobile-navigation__link">Pricing</a>
+                </li>
+            </ul>
+            <label for="menu-toggler-id" class="mobile-navigaton__close">
+                <svg class="mobile-navigaton__cross" aria-label="cross icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
+
     <main>
         <section class="hero" aria-label="hero-section" id="hero-id">
             <div class="container">
                 <div class="hero__content">
                     <h1 class="hero__title">Be aware, Manage well.</h1>
-                    <p class="hero__description">Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                    <p class="hero__description">Everyone experiences stress in different ways. Let Alivio guide you, in
+                        a personalized journal experience, to overcome your stress.</p>
                     <button type="button" class="btn">Find Your Way</button>
                 </div>
             </div>
@@ -65,25 +99,31 @@
 
                 <div class="about__content">
                     <h2 class="about__title">Understand & Release the stress in 3 steps</h2>
-                    <p class="about__description">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+                    <p class="about__description">Alivio offers as many journals it takes, tackling different areas such
+                        as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you
+                        become aware of your emotions, and guide you in how to manage stress.</p>
                 </div>
 
                 <div class="about__cards">
                     <figure class="card" aria-label="first card">
                         <h4 class="card__title">Personalize</h4>
-                        <p class="card__description">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+                        <p class="card__description">Answer a quick survey about how you express yourself, what causes
+                            you stress, and what area would you like to work on. This way, we can fully personalize your
+                            journal!</p>
                         <img src="assets/webp/personalize.webp" alt="card image 1" class="card__img">
                     </figure>
 
                     <figure class="card" aria-label="second card">
                         <h4 class="card__title card__title-second card__title-right">Write & Understand</h4>
-                        <p class="card__description">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+                        <p class="card__description">Write, draw, reflect, understand. Alivio will guide you through the
+                            prompts and will help you manage your stress!</p>
                         <img src="assets/webp/write.webp" alt="card image 2" class="card__img">
                     </figure>
 
                     <figure class="card" aria-label="third card">
                         <h4 class="card__title card__title-third">Alivio!</h4>
-                        <p class="card__description">Now you are aware, and have a way to manage and overcome your own stress.What are you waiting for? Alivio today!</p>
+                        <p class="card__description">Now you are aware, and have a way to manage and overcome your own
+                            stress.What are you waiting for? Alivio today!</p>
                         <img src="assets/webp/alivio.webp" alt="card image 3" class="card__img">
                     </figure>
                 </div>
@@ -122,7 +162,8 @@
                     <div class="product__content">
                         <h4 class="product__info">Our product</h4>
                         <h5 class="product__title">You tell us your stress, We make your diary</h5>
-                        <p class="product__description">Everyone experiences it, and in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                        <p class="product__description">Everyone experiences it, and in different ways. Let Alivio guide
+                            you, in a personalized journal experience, to overcome your stress.</p>
                         <button type="button" class="btn">Find Your Way</button>
                     </div>
 
@@ -143,14 +184,14 @@
                 </div>
             </div>
         </section>
-        
+
     </main>
 
     <footer class="pricing" aria-label="pricing section" id="pricing-id">
-       <div class="container">
-        <div class="pricing__content">
-            <h2 class="pricing__title">Alivio</h2>
-            <nav class="pricing__nav" aria-label="navigation">
+        <div class="container">
+            <div class="pricing__content">
+                <h2 class="pricing__title">Alivio</h2>
+                <nav class="pricing__nav" aria-label="navigation">
                     <ul class="pricing__nav-list" aria-label="navigation list">
                         <li class="pricing__nav-item">
                             <a href="#about-id" class="pricing__nav-link">Why Alivio</a>
@@ -166,10 +207,10 @@
                         </li>
                     </ul>
                 </nav>
-        </div> 
-       </div> 
+            </div>
+        </div>
     </footer>
-    
+
 </body>
 
 </html>
